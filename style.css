@@ -1,0 +1,22 @@
+@charset "UTF-8"; :root{--cor1:  #36BFB1;--cor2:#038C73 ;--cor3 : #014034  ;  ;--cor4: #02735E;}
+@import url('https://fonts.googleapis.com/css2? family= Atma & family= Galada & family= Vina+Sans & display=swap');
+
+*{margin: 0;padding: 0%;} 
+body{background-color: var(--cor1);font-family:'roboto',sans-serif ;} 
+header{background-image: linear-gradient(to bottom,var(--cor3),var(--cor1));min height: 150px;text-align:center; padding-top :40px} 
+header > h1 {color: darkgoldenrod; font-weight: 800px;margin-bottom: 20px ;}
+header>P {color: var(--cor3)} 
+
+nav{background-color: crimson;padding:10px ;box-shadow:2px 2px 2px 2px #02735E;}
+
+nav > a{color: darkred;padding:10px ;text-decoration: none;font-weight:bold ;border-radius:3px ;transition-duration: 0.5;}
+nav > a:hover{background-color:var(--cor3) ;color: crimson ;font-size:40px ;} main{background-color: whitesmoke;min-width:200px ;max-width: 1000px;margin:auto;margin-top:10px ;padding:10px ;border-bottom-left-radius:10px ;border-bottom-right-radius:10px ;box-shadow:0px 2px 4px 1px ;}
+main h2{background-image:linear-gradient(to right,var(--cor3), transparent) ;text-align: center;}
+
+main p{font-size: 18px;text-align: justify;text-indent: 40px;margin:15px 0px ;} 
+img, iframe{width: 40%;border: 10px double black;}
+figcaption{font-size:12px ;}
+aside{background-color:var(--cor2) ;padding: 10px;border-radius:5px ;} aside >ul{list-style-position: inside;text-align: justify;} aside{background-color: violet;padding: 15px;margin:-20px -20px -10px -5px;border-radius:10px 10px 0px 0px ;}
+iframe{margin-bottom:20px ;} 
+footer{font-size: 12px ;text-align: center;padding: 3px;}
+footer> a{font-weight:10px ;text-decoration-line:none ;}
